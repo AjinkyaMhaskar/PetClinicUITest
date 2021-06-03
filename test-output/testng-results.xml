@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-05T15:53:59 GMT+05:30" name="Default suite" finished-at="2021-03-05T15:55:09 GMT+05:30" duration-ms="70099">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-05T15:53:59 GMT+05:30" name="Default test" finished-at="2021-03-05T15:55:09 GMT+05:30" duration-ms="70099">
+      <class name="test.java.runner.TestRunner">
+        <test-method is-config="true" signature="initSetup()[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:53:55 GMT+05:30" name="initSetup" finished-at="2021-03-05T15:53:59 GMT+05:30" duration-ms="4530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetup -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:53:59 GMT+05:30" name="setUpClass" finished-at="2021-03-05T15:54:00 GMT+05:30" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:00 GMT+05:30" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-05T15:54:01 GMT+05:30" duration-ms="1601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Find Owners page - Add new owner & pet for that owner]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownr(org.testng.ITestResult)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:01 GMT+05:30" name="tearDownr" finished-at="2021-03-05T15:54:01 GMT+05:30" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownr -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:01 GMT+05:30" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-05T15:54:03 GMT+05:30" duration-ms="1639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Find owners page - Find all owners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownr(org.testng.ITestResult)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:03 GMT+05:30" name="tearDownr" finished-at="2021-03-05T15:54:03 GMT+05:30" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownr -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:03 GMT+05:30" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-05T15:54:03 GMT+05:30" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Veterinarians page - Find all veterinarians]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownr(org.testng.ITestResult)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:03 GMT+05:30" name="tearDownr" finished-at="2021-03-05T15:54:03 GMT+05:30" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownr -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:03 GMT+05:30" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-05T15:54:36 GMT+05:30" duration-ms="32832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Application home page - Verify home page images]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:36 GMT+05:30" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-03-05T15:55:09 GMT+05:30" duration-ms="33228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Find Owners page - Verify owner and pet informaion]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownr(org.testng.ITestResult)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:54:36 GMT+05:30" name="tearDownr" finished-at="2021-03-05T15:54:36 GMT+05:30" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownr -->
+        <test-method is-config="true" signature="tearDownr(org.testng.ITestResult)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:55:09 GMT+05:30" name="tearDownr" finished-at="2021-03-05T15:55:09 GMT+05:30" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=feature status=SUCCESS method=AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.java.runner.TestRunner@7e0b85f9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownr -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:55:09 GMT+05:30" name="setup" finished-at="2021-03-05T15:55:09 GMT+05:30" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:55:09 GMT+05:30" name="tearDownClass" finished-at="2021-03-05T15:55:09 GMT+05:30" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:test.java.runner.TestRunner@7e0b85f9]" started-at="2021-03-05T15:55:09 GMT+05:30" name="closeBrowser" finished-at="2021-03-05T15:55:10 GMT+05:30" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- test.java.runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
