@@ -1,4 +1,4 @@
-# Alef Education - Spring-petclinic application UI Test
+# Spring-petclinic application UI Test
 ## Selenium WebDriver, BDD(Cucumber)
 ## Tools:
 - Eclipse
